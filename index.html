@@ -3,35 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tarkovskaya Beer - Home</title>
+    <title>Tarkovskaya Beer</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
     <header>
         <h1>Welcome to Tarkovskaya Beer</h1>
+        <p>Premium Craft Beer from the Heart of Tarkov</p>
     </header>
 
     <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
+        <a href="#about">About</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact</a>
     </nav>
 
-    <section id="home">
-        <h2>Welcome to Tarkovskaya Beer</h2>
-        <p>Tarkovskaya Beer is a premium brewery dedicated to crafting the finest quality beer with traditional methods and modern techniques.</p>
-        <p>Explore our wide range of beer products, each brewed with passion and precision:</p>
-        <ul>
-            <li><a href="products.html#lager">Tarkovskaya Lager</a></li>
-            <li><a href="products.html#pale-ale">Tarkovskaya Pale Ale</a></li>
-            <li><a href="products.html#stout">Tarkovskaya Stout</a></li>
-            <li><a href="products.html#ipa">Tarkovskaya IPA</a></li>
-        </ul>
+    <section id="about">
+        <div class="container">
+            <h2>About Tarkovskaya Beer</h2>
+            <p>Tarkovskaya Beer is a premium craft brewery based in the heart of Tarkov. We are dedicated to crafting exceptional beers using the finest ingredients and traditional brewing techniques. Our passion for brewing drives us to create unique and flavorful beers that capture the essence of our city.</p>
+            <p>At Tarkovskaya Beer, we believe in quality, craftsmanship, and innovation. Each of our beers is carefully brewed to perfection, ensuring a memorable and satisfying drinking experience for our customers.</p>
+            <p>Join us on a journey of taste and discovery as we explore the world of Tarkovskaya Beer.</p>
+        </div>
+    </section>
+
+    <section id="products">
+        <div class="container">
+            <h2>Our Products</h2>
+            <div class="product">
+                <img src="images/lager.jpg" alt="Tarkovskaya Lager">
+                <div class="product-info">
+                    <h3>Tarkovskaya Lager</h3>
+                    <p>A refreshing and crisp lager, perfect for any occasion.</p>
+                </div>
+            </div>
+            <!-- Add more products -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Have questions or want to learn more about our beer products? Contact us:</p>
+            <p>Email: info@tarkovskayabeer.com</p>
+            <p>Phone: 1-800-TARKOVSKA</p>
+        </div>
     </section>
 
     <footer>
-        <p>&copy; 2024 Tarkovskaya Beer. All rights reserved.</p>
+        <div class="container">
+            <p>&copy; 2024 Tarkovskaya Beer. All rights reserved.</p>
+        </div>
     </footer>
 
 </body>
